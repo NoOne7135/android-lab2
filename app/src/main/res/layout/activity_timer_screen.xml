@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".TimerScreen">
+
+
+    <TextView
+        android:id="@+id/timerDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="00:00:00"
+        android:textSize="50dp" />
+
+    <ListView
+        android:id="@+id/lapsListView"
+        android:layout_width="400dp"
+        android:layout_height="400dp" />
+
+    <Button
+        android:id="@+id/startStopButton"
+        android:layout_width="130dp"
+        android:layout_height="75dp"
+        android:text="Start" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="130dp"
+        android:layout_height="75dp"
+        android:text="Reset" />
+
+    <Button
+        android:id="@+id/lapButton"
+        android:layout_width="130dp"
+        android:layout_height="75dp"
+        android:text="Lap" />
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="130dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="75dp"
+        android:text="Back" />
+
+</LinearLayout>

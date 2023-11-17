@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SettingsScreen">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Spinner
+            android:id="@+id/spinnerTimeZone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="top"
+
+            />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="130dp"
+        android:layout_height="75dp"
+        android:onClick="onBackTapped"
+        android:text="Back" />
+</LinearLayout>
